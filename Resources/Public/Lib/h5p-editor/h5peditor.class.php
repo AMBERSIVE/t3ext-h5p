@@ -372,7 +372,7 @@ class H5peditor {
    *
    * @return array Libraries that was requested
    */
-  public function getLibraryData($machineName, $majorVersion, $minorVersion, $languageCode, $prefix = '', $fileDir = '', $defaultLanguage) {
+  public function getLibraryData($machineName, $majorVersion, $minorVersion, $languageCode, $prefix = '', $fileDir = '', $defaultLanguage = '') {
     $libraryData = new stdClass();
 
     // Include name and version in data object for convenience
