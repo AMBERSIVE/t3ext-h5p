@@ -32,7 +32,10 @@
   "extra": {
     "branch-alias": {
       "dev-master": "0.0.x-dev"
-    }
+    },
+    "typo3/cms": {
+      "extension-key": "h5p"
+   }
   },
   "autoload": {
     "psr-4": {
